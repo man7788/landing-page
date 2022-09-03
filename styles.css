@@ -36,9 +36,25 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 8px;
+  gap: 16px;
 }
 
-.header {
+.header .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+  padding-top: 12px;
+  border: 2px solid #ff0000;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
 }
+
+.header .logo {
+  margin-right: 48px;
+}
+
+.header .list {
+  border: 2px solid #ff0000;
+}
+
