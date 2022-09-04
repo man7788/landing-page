@@ -57,7 +57,7 @@ body {
 }
 
 .info .text {
-  color: #5e5c5c;
+  color: #464646;
 }
 
 
@@ -136,6 +136,7 @@ body {
   width: 120px;
   padding: 6px;
   color: #F9FAF8;
+  font-weight: 500;
   font-size: 18px;
   background: #3882F6;
   border-radius: 8px;
@@ -227,7 +228,7 @@ body {
 .action .container-text {
   display: flex;
   flex-direction: column;
-  color: #E5E7EB;
+  color: #F9FAF8;
 }
 
 .action .title {
@@ -238,9 +239,15 @@ body {
 .action .button {
   border: 2px solid #E5E7EB;
   background: transparent;
-  color: #E5E7EB;
+  color: #F9FAF8;
   padding: 4px 24px;
   font-size: 16px;
   font-weight: 900;
   border-radius: 8px;
+}
+
+/* -------------- Footer -------------- */
+.footer .text {
+  text-align: center;
+  padding: 24px;
 }
