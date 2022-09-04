@@ -9,7 +9,8 @@ body {
 .container .header .container,
 .container .hero .container,
 .container .info .container,
-.container .quote .container{
+.container .quote .container,
+.container .action .container{
   margin: 0 160px;
 }
 
@@ -202,4 +203,44 @@ body {
 .quote .container-bottom {
   display: flex;
   justify-content: flex-end;
+}
+
+/* -------------- Action -------------- */
+.action .container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.action .container-box {
+  background: #3882F6;
+  width: 800px;
+  height: 120px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 68px;
+  margin: 88px 0;
+}
+
+.action .container-text {
+  display: flex;
+  flex-direction: column;
+  color: #E5E7EB;
+}
+
+.action .title {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.action .button {
+  border: 2px solid #E5E7EB;
+  background: transparent;
+  color: #E5E7EB;
+  padding: 4px 24px;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 8px;
 }
